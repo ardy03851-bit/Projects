@@ -1,17 +1,17 @@
-# Team Hope Christmas Shoebox Appeal Poster
+# Team Hope Christmas Shoebox Appeal — A4 poster
 
-A responsive, print-ready poster page for the Team Hope Christmas Shoebox Appeal.
+A single-page, portrait A4 poster designed for printing. The poster is the whole interface: no website navigation, buttons, clickable calls to action, or interactive age selector. The age groups are printed as visual labels.
 
-## Preview locally
+## Preview and print
 
-Open `index.html` in a browser, or serve this folder with any static file server, for example:
+Open `index.html` in a browser or serve this directory with a static file server, for example:
 
 ```sh
 python3 -m http.server 8000
 ```
 
-Use the **Print poster** button to print or save an A4 portrait PDF. The age-group cards are interactive on screen and intentionally print as a clean, unselected poster.
+Print using **A4**, **portrait**, and **100% / actual size**. Enable background graphics/colours in the print dialog for the intended green and cream palette. The print stylesheet sets an exact A4 page with no margins.
 
 ## Image credit
 
-The campaign photograph is from Echo Live's Team Hope shoebox appeal coverage: [echolive.ie](https://echolive.ie/corknews/arid-41932053.html). It is included locally at `public/images/shoebox-appeal.jpg` so the poster does not depend on a remote image host.
+The campaign photograph is from Echo Live's Team Hope shoebox appeal coverage. It is stored locally at `public/images/shoebox-appeal.jpg` so the poster itself has no dependency on a remote image host.
